@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float jumpSpeed;
     [SerializeField] private Rigidbody2D  rb2d;
     [SerializeField] private Vector2  direction;
+    
 
 
     public float pRun;

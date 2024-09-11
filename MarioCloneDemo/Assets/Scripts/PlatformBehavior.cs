@@ -7,7 +7,7 @@ public class PlatformBehavior : MonoBehaviour
     [SerializeField] private float moveSpeed = 5;
     private Vector2 startPosition;
     private bool isMovingRight;
-    [SerializeField] private bool offset;
+    [SerializeField] private float offset;
     [SerializeField] private float rotationSpeed;
     [SerializeField] private bool canMove;
     [SerializeField] private bool canRotate;
