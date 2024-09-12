@@ -8,8 +8,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float jumpSpeed;
     [SerializeField] private Rigidbody2D  rb2d;
     [SerializeField] private Vector2  direction;
-    
-
 
     public float pRun;
     public float pJump;
@@ -30,7 +28,7 @@ public class PlayerController : MonoBehaviour
     private void Move()
     {
         float moveInput = Input.GetAxis("Horizontal");
-        transform.Translate(Vector2.right * moveInput * runSpeed * Time.deltaTime);
+        transform.Translate(moveInput * Vector2.right * runSpeed * Time.deltaTime);
 
     
     }
